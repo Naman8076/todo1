@@ -1,0 +1,44 @@
+button:focus{
+    outline: none;
+}
+.todo-list{
+    max-height: 210px;
+    overflow-y: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    background: lightgrey;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 15px 15px 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+.pointer{
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through;
+    color: green;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: dodgerblue;
+}
+.green{
+    color: yellowgreen;
+}
